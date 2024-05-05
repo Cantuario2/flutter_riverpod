@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod_sample/screens/home/home_screen.dart';
 
 void main() {
-  runApp(const FlutterRiverpod());
+  runApp(const ProviderScope(child: FlutterRiverpod()));
 }
 
 class FlutterRiverpod extends StatelessWidget {
