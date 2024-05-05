@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/screens/home/home_screen.dart';
+import 'package:flutter_riverpod_sample/screens/home/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const FlutterRiverpod());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FlutterRiverpod extends StatelessWidget {
+  const FlutterRiverpod({super.key});
 
   // This widget is the root of your application.
   @override
